@@ -1,0 +1,86 @@
+/* reset */
+body,h1,p{
+  margin:unset;
+}
+
+h1,p{
+  font-size: 14px;
+  font-weight: normal;
+  font-family: arial;
+}
+
+/* layout */
+.l_wrapper{
+  box-shadow: inset 0 0 20px red;
+  width: 980px;
+  margin: 0 auto;
+}
+/* header */
+.header{
+  background-image: url(images/insideout-bg.png);
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.header-text{
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #EA3629;
+}
+/* main */
+.main{
+  background-color: #DDDDDD;
+}
+.contents{
+  min-height: 317px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+  background-color: #ffffff;
+  gap:30px;
+}
+.img{
+  width: 240px;
+  height: 240px;
+}
+
+
+.name{
+  color:#FFAD08;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 900;
+}
+.name::after{
+  
+  display: block;
+  position: relative;
+  left: 100px;
+  width: 77px;
+  height: 10px;
+  background-color: #FFE53C;
+
+}
+
+.info{
+  width: 294px;
+  font-size: 16px;
+  line-height: 160%;
+  color: #aaaaaa;
+
+  
+  
+  text-align: end;
+
+
+}
+
+
+
+/* footer */
+.footer{
+  background-color: #DDDDDD;
+}
