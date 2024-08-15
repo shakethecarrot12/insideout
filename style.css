@@ -93,6 +93,12 @@ h1,p{
   right: 720px;
 }
 
+.sad-img{
+  position: absolute;
+  right: 20px;
+  top: 77px;
+}
+
 .anger-img{
   position: absolute;
   top: 77px;
